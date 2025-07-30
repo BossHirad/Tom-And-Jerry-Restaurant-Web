@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tom And Jerry Restaurant</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header/Navigation -->
+    <header>
+        <nav>
+            <div class="container nav-content">
+                <a href="#" class="logo">
+                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='45' fill='%23ef4444'/%3E%3Cpath d='M30 35c5.5 0 10 4.5 10 10s-4.5 10-10 10-10-4.5-10-10 4.5-10 10-10zM70 35c5.5 0 10 4.5 10 10s-4.5 10-10 10-10-4.5-10-10 4.5-10 10-10z' fill='white'/%3E%3Cpath d='M50 65c8.3 0 15 1.7 15 3.8 0 2.1-6.7 3.8-15 3.8s-15-1.7-15-3.8c0-2.1 6.7-3.8 15-3.8z' fill='white'/%3E%3C/svg%3E" alt="Tom and Jerry Logo">
+                    <span class="logo-text">Tom & Jerry</span>
+                </a>
+                <div class="nav-links">
+                    <a href="#home">Home</a>
+                    <a href="#featured">Featured</a>
+                    <a href="#menu">Menu</a>
+                    <a href="#about">About</a>
+                    <a href="#reservation">Book Table</a>
+                </div>
+                <button class="btn">Order Online</button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home">
+        <div class="container" data-scroll>
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>The Perfect Space to Enjoy Fantastic Food</h1>
+                    <p>Welcome to Tom And Jerry, where culinary excellence meets playful dining. Experience our signature dishes in a warm and inviting atmosphere.</p>
+                    <button class="btn btn-large">Explore Menu</button>
+                </div>
+                <div class="hero-image">
+                    <img src="/images/happy-tom-and-jerry-zkzpoafz5yddcctg.jpg" alt="Restaurant Ambiance">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Dishes Section -->
+    <section class="featured-dishes" id="featured">
+        <div class="container" data-scroll>
+            <div class="section-header">
+                <span class="section-subtitle">Special Selection</span>
+                <h2 class="section-title">Featured Dishes</h2>
+                <p class="section-description">Discover our chef's carefully curated selection of signature dishes that blend traditional flavors with modern creativity.</p>
+            </div>
+            <div class="dishes-grid">
+                <div class="dish-card">
+                    <div class="dish-image">
+                        <img src="/images/GrilledFlatIronSteak-StevenMorrisPhotography-GettyImages-5c62f355c9e77c0001d32301.jpg" alt="Premium Steak">
+                    </div>
+                    <div class="dish-content">
+                        <h3 class="dish-title">Jerry's Special Steak</h3>
+                        <p class="dish-price">$34.99</p>
+                        <p class="dish-description">Premium cut beef grilled to perfection with herb butter and seasonal vegetables.</p>
+                    </div>
+                </div>
+                <div class="dish-card">
+                    <div class="dish-image">
+                        <img src="/images/images (9).jpeg" alt="Signature Pasta">
+                    </div>
+                    <div class="dish-content">
+                        <h3 class="dish-title">Tom's Seafood Pasta</h3>
+                        <p class="dish-price">$28.99</p>
+                        <p class="dish-description">Fresh seafood medley in a rich creamy sauce with handmade pasta.</p>
+                    </div>
+                </div>
+                <div class="dish-card">
+                    <div class="dish-image">
+                        <img src="/images/Paradise-Island-Foods-2-700x485.jpg" alt="Dessert">
+                    </div>
+                    <div class="dish-content">
+                        <h3 class="dish-title">Cheese Paradise</h3>
+                        <p class="dish-price">$12.99</p>
+                        <p class="dish-description">A delightful cheese-based dessert that melts in your mouth.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section" id="about">
+        <div class="container" data-scroll>
+            <div class="about-grid">
+                <div class="about-image">
+                    <img src="/images/happy-tom-and-jerry-zkzpoafz5yddcctg.jpg" alt="Restaurant Interior">
+                </div>
+                <div class="about-content">
+                    <h2>Our Story</h2>
+                    <p>Tom & Jerry Restaurant was founded with a vision to create a unique dining experience that combines playful elements with serious culinary expertise. Our journey began with a simple idea: make dining fun again.</p>
+                    <p>Today, we're proud to serve our community with the finest ingredients, creative recipes, and warm hospitality that makes every visit memorable.</p>
+                    <div class="stats-grid">
+                        <div class="stat-item">
+                            <div class="stat-number">15+</div>
+                            <div class="stat-label">Years of Service</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">50+</div>
+                            <div class="stat-label">Unique Dishes</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">100k+</div>
+                            <div class="stat-label">Happy Customers</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu">
+        <div class="container" data-scroll>
+            <div class="section-header">
+                <span class="section-subtitle">Discover</span>
+                <h2 class="section-title">Our Menu</h2>
+                <p class="section-description">Explore our wide range of dishes crafted with love and served with care.</p>
+            </div>
+            <div class="menu-tabs">
+                <button class="menu-tab active" data-category="all">All</button>
+                <button class="menu-tab" data-category="starters">Starters</button>
+                <button class="menu-tab" data-category="main">Main Course</button>
+                <button class="menu-tab" data-category="desserts">Desserts</button>
+                <button class="menu-tab" data-category="drinks">Drinks</button>
+            </div>
+            <div class="menu-grid">
+                <!-- Starters -->
+                <div class="menu-item" data-category="starters">
+                    <img src="/images/1737383350065-78lhs6qw.webp" alt="Cheese Bites">
+                    <div class="menu-item-content">
+                        <div class="menu-item-header">
+                            <h3>Jerry's Cheese Bites</h3>
+                            <p class="price">$8.99</p>
+                        </div>
+                        <p>Golden-fried cheese bites served with marinara sauce</p>
+                    </div>
+                </div>
+                <div class="menu-item" data-category="starters">
+                    <img src="/images/Tomato-Soup-3-1200x1800.webp" alt="Tomato Soup">
+                    <div class="menu-item-content">
+                        <div class="menu-item-header">
+                            <h3>Tom's Tomato Soup</h3>
+                            <p class="price">$6.99</p>
+                        </div>
+                        <p>Creamy tomato soup with fresh basil and croutons</p>
+                    </div>
+                </div>
+                <div class="menu-item" data-category="starters">
+                    <img src="/images/Salad.jpeg" alt="Garden Salad">
+                    <div class="menu-item-content">
+                        <div class="menu-item-header">
+                            <h3>Garden Fresh Salad</h3>
+                            <p class="price">$7.99</p>
+                        </div>
+                        <p>Mixed greens with seasonal vegetables and house dressing</p>
+                    </div>
+                </div>
+
+                <!-- Main Course -->
+                <div class="menu-item" data-category="main">
+                    <img src="/images/GrilledFlatIronSteak-StevenMorrisPhotography-GettyImages-5c62f355c9e77c0001d32301.jpg" alt="Premium Steak">
+                    <div class="menu-item-content">
+                        <div class="menu-item-header">
+                            <h3>T&J Special Steak</h3>
+                            <p class="price">$34.99</p>
+                        </div>
+                        <p>Premium cut beef with herb butter and roasted vegetables</p>
+                    </div>
+                </div>
+                <div class="menu-item" data-category="main">
+                    <img src="/images/seafood-pasta-recipe.jpg" alt="Seafood Pasta">
+                    <div class="menu-item-content">
+                        <div class="menu-item-header">
+                            <h3>Seafood Delight Pasta</h3>
+                            <p class="price">$28.99</p>
+                        </div>
+                        <p>Fresh seafood in creamy sauce with handmade pasta</p>
+                    </div>
+                </div>
+                <div class="menu-item" data-category="main">
+                    <img src="/images/Grilled-Chicken-Overhead-500x500.jpg" alt="Grilled Chicken">
+                    <div class="menu-item-content">
+                        <div class="menu-item-header">
+                            <h3>Herb Grilled Chicken</h3>
+                            <p class="price">$24.99</p>
+                        </div>
+                        <p>Marinated chicken breast with seasonal vegetables</p>
+                    </div>
+                </div>
+
+                <!-- Desserts -->
+                <div class="menu-item" data-category="desserts">
+                    <img src="/images/cheesecake-1-22-500x500 (1).jpg" alt="Cheesecake">
+                    <div class="menu-item-content">
+                        <div class="menu-item-header">
+                            <h3>Jerry's Cheesecake</h3>
+                            <p class="price">$9.99</p>
+                        </div>
+                        <p>Classic New York style cheesecake with berry compote</p>
+                    </div>
+                </div>
+                <div class="menu-item" data-category="desserts">
+                    <img src="/images/choco.jpeg" alt="Chocolate Cake">
+                    <div class="menu-item-content">
+                        <div class="menu-item-header">
+                            <h3>Tom's Chocolate Dream</h3>
+                            <p class="price">$8.99</p>
+                        </div>
+                        <p>Rich chocolate cake with vanilla ice cream</p>
+                    </div>
+                </div>
+                <div class="menu-item" data-category="desserts">
+                    <img src="/images/Classic Tiramisu.jpeg" alt="Tiramisu">
+                    <div class="menu-item-content">
+                        <div class="menu-item-header">
+                            <h3>Classic Tiramisu</h3>
+                            <p class="price">$7.99</p>
+                        </div>
+                        <p>Italian coffee-flavored dessert with mascarpone</p>
+                    </div>
+                </div>
+
+                <!-- Drinks -->
+                <div class="menu-item" data-category="drinks">
+                    <img src="/images/images (14).jpeg" alt="Signature Mocktail">
+                    <div class="menu-item-content">
+                        <div class="menu-item-header">
+                            <h3>T&J Special Mocktail</h3>
+                            <p class="price">$8.99</p>
+                        </div>
+                        <p>Our signature blend of fresh fruits, herbs, and sparkling water</p>
+                    </div>
+                </div>
+                <div class="menu-item" data-category="drinks">
+                    <img src="/images/Blue-Lagoon-Mocktail06005-1.jpg" alt="Mocktail">
+                    <div class="menu-item-content">
+                        <div class="menu-item-header">
+                            <h3>Tropical Paradise</h3>
+                            <p class="price">$7.99</p>
+                        </div>
+                        <p>Refreshing blend of tropical fruits and mint</p>
+                    </div>
+                </div>
+                <div class="menu-item" data-category="drinks">
+                    <img src="/images/images (15).jpeg" alt="Fresh Juice">
+                    <div class="menu-item-content">
+                        <div class="menu-item-header">
+                            <h3>Fresh Juice Selection</h3>
+                            <p class="price">$6.99</p>
+                        </div>
+                        <p>Choice of watermelon, orange, or mixed berry fresh juice</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reservation Section -->
+    <section id="reservation">
+        <div class="container" data-scroll>
+            <div class="reservation-grid">
+                <div class="reservation-image">
+                    <img src="/images/218b31d7ddcaccdde9bb0d60c06a7342.jpg" alt="Restaurant Table">
+                </div>
+                <div class="reservation-form">
+                    <div class="section-header" style="text-align: left;">
+                        <span class="section-subtitle">Book a Table</span>
+                        <h2 class="section-title">Make a Reservation</h2>
+                        <p class="section-description">Reserve your table for any occasion. We're ready to serve you.</p>
+                    </div>
+                    <form>
+                        <div class="form-grid">
+                            <div class="form-group">
+                                <label class="form-label">Name</label>
+                                <input type="text" class="form-control" placeholder="Your Name">
+                            </div>
+                            <div class="form-group">
+                                <label class="form-label">Email</label>
+                                <input type="email" class="form-control" placeholder="Your Email">
+                            </div>
+                        </div>
+                        <div class="form-grid">
+                            <div class="form-group">
+                                <label class="form-label">Date</label>
+                                <input type="date" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label class="form-label">Time</label>
+                                <input type="time" class="form-control">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Number of Guests</label>
+                            <input type="number" class="form-control" placeholder="Number of guests">
+                        </div>
+                        <button type="submit" class="btn" style="width: 100%;">Reserve Now</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <div class="footer-logo">
+                        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='45' fill='white'/%3E%3Cpath d='M30 35c5.5 0 10 4.5 10 10s-4.5 10-10 10-10-4.5-10-10 4.5-10 10-10zM70 35c5.5 0 10 4.5 10 10s-4.5 10-10 10-10-4.5-10-10 4.5-10 10-10z' fill='%23ef4444'/%3E%3Cpath d='M50 65c8.3 0 15 1.7 15 3.8 0 2.1-6.7 3.8-15 3.8s-15-1.7-15-3.8c0-2.1 6.7-3.8 15-3.8z' fill='%23ef4444'/%3E%3C/svg%3E" alt="Tom and Jerry Logo">
+                        <span class="logo-text">Tom & Jerry</span>
+                    </div>
+                    <p>Experience the perfect blend of taste and entertainment at Tom & Jerry Restaurant. We're committed to making every meal special.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link">FB</a>
+                        <a href="#" class="social-link">IG</a>
+                        <a href="#" class="social-link">TW</a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h3 class="footer-title">Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#menu">Menu</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#reservation">Reservations</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h3 class="footer-title">Contact</h3>
+                    <ul>
+                        <li><a href="#">123 Restaurant Street</a></li>
+                        <li><a href="#">+1 234 567 890</a></li>
+                        <li><a href="#">info@tomandjerry.com</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h3 class="footer-title">Opening Hours</h3>
+                    <ul>
+                        <li><a href="#">Mon - Fri: 11am - 10pm</a></li>
+                        <li><a href="#">Sat - Sun: 10am - 11pm</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Tom & Jerry Restaurant. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Scroll animation
+        const scrollElements = document.querySelectorAll("[data-scroll]");
+
+        const elementInView = (el, offset = 0) => {
+            const elementTop = el.getBoundingClientRect().top;
+            return (
+                elementTop <= 
+                (window.innerHeight || document.documentElement.clientHeight) - offset
+            );
+        };
+
+        const displayScrollElement = (element) => {
+            element.classList.add("scroll-animate");
+        };
+
+        const handleScrollAnimation = () => {
+            scrollElements.forEach((el) => {
+                if (elementInView(el, 100)) {
+                    displayScrollElement(el);
+                }
+            });
+        };
+
+        window.addEventListener("scroll", () => {
+            handleScrollAnimation();
+        });
+
+        // Initial check
+        handleScrollAnimation();
+
+        // Menu filtering functionality
+        const menuTabs = document.querySelectorAll('.menu-tab');
+        const menuItems = document.querySelectorAll('.menu-item');
+
+        menuTabs.forEach(tab => {
+            tab.addEventListener('click', () => {
+                // Update active tab
+                menuTabs.forEach(t => t.classList.remove('active'));
+                tab.classList.add('active');
+
+                // Filter menu items
+                const category = tab.getAttribute('data-category');
+                menuItems.forEach(item => {
+                    if (category === 'all' || item.getAttribute('data-category') === category) {
+                        item.style.display = 'block';
+                        setTimeout(() => {
+                            item.style.opacity = '1';
+                            item.style.transform = 'translateY(0)';
+                        }, 10);
+                    } else {
+                        item.style.opacity = '0';
+                        item.style.transform = 'translateY(20px)';
+                        setTimeout(() => {
+                            item.style.display = 'none';
+                        }, 300);
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html> 
